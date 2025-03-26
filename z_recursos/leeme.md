@@ -3,7 +3,7 @@
 ## Ejemplo card
 ![La Tarjeta](wwww.png)
 ## Ejemplo de dialogo de alerta
-![El Dialogo](Dialogo.png)
+![El Dialogo](DIalogo.png)
 ## Segunda SS
 ![El DialogoR](DialogoR.png)
 
