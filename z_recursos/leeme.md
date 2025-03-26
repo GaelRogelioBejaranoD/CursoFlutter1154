@@ -6,8 +6,8 @@
 ![El Dialogo](DIalogo.png)
 ![El DialogoR](DialogoR.png)
 ## Ejemplo de lista tile
-![La Lista](list.png)
-![La Lista](list2.png)
+![La Lista](List.png)
+![La Lista](List2.png)
 
 
 
