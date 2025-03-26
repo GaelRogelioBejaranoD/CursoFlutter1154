@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 // import 'package:bejaranocurso/mi_widgets/mi_tarjeta.dart';
-import 'package:bejaranocurso/mi_widgets/Dialogo_acerca_de.dart';
+// import 'package:bejaranocurso/mi_widgets/Dialogo_acerca_de.dart';
+import 'package:bejaranocurso/mi_widgets/List_Tile.dart';
 
 const Color darkBlue = Color(0xFF12202F);
 
@@ -16,16 +17,16 @@ class MiTarjeta extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Flutter Widget Tarjeta card",
       home: Scaffold(
-        appBar: AppBar(
-          title: const Text(
-            "Flutter Bejarano",
-            style: TextStyle(color: Colors.white, fontSize: 32),
+          appBar: AppBar(
+            title: const Text(
+              "Flutter Bejarano",
+              style: TextStyle(color: Colors.white, fontSize: 32),
+            ),
+            centerTitle: true,
           ),
-          centerTitle: true,
-        ),
-        //body: const LaTarjeta(),
-        body: const DialogoAcercaDe(),
-      ),
+          //body: const LaTarjeta(),
+          // body: const DialogoAcercaDe(),
+          body: const ListaRoger()),
     );
   }
 }
